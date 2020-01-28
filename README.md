@@ -1,7 +1,7 @@
 # ConvexSpheropolyhedronVolume
 Small Python notebook providing a method to calculate the volume of a 3D convex spheropolyhedron.
 
-# Spherowhat now? Why?
+## Spherowhat now? Why? ##
 
 Spheropolyhedra are the Minkowski sum of a polyhedron and a sphere. Minkowski sums are basically math with geometric shapes. The sum of two shapes yields something that's a little bit of both. As an example, here's a picture of a spherotetrahedron.
 
