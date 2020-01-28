@@ -9,7 +9,7 @@ Spheropolyhedra are the Minkowski sum of a polyhedron and a sphere. Minkowski su
 
 *Convex* spheropolyhedra have nice mathematical properties that lend themselves well to collision detection algorithms such as  Gilbert-Johnson-Keerthi (GJK). However, I couldn't find any analytical formulae for calculating their volume, nor a simple algorithm, so I coded one myself. 
 
-# Algorithm outline
+## Algorithm outline ##
 
 The idea is quite simple. Any polyhedron is composed of vertices, edges and faces. A *sphero*polyhedron with rounding radius *R* is the shape you get at a constant distance *R* away from this polyhedron. So, to calculate the volume of this new shape, what we do is:
 
