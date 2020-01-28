@@ -1,5 +1,6 @@
 import math
 import numpy
+import sys
 
 # Calculates the volume of a polyhedron. Needs the positions of the vertices and the indices of the
 # faces. Will center vertices around the origin, and faces need not be triangles.
